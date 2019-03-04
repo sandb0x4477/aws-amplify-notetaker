@@ -5,6 +5,7 @@ import './App.css';
 
 import { createNote, deleteNote, updateNote } from './graphql/mutations';
 import { listNotes } from './graphql/queries';
+// import { onCreateNote } from './graphql/subscriptions'
 
 class App extends Component {
   state = {
@@ -15,6 +16,11 @@ class App extends Component {
 
   componentDidMount() {
     this.listNotes();
+    // API.graphql(graphqlOperation(onCreateNote)).subscribe({
+    //   next: data => {
+    //     console.log('data:', data)
+    //   }
+    // })
   }
 
   listNotes = async () => {
