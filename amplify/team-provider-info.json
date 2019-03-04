@@ -1,0 +1,19 @@
+{
+    "react": {
+        "awscloudformation": {
+            "AuthRoleName": "aplify-notetaker-20190304133047-authRole",
+            "UnauthRoleArn": "arn:aws:iam::859514219765:role/aplify-notetaker-20190304133047-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::859514219765:role/aplify-notetaker-20190304133047-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "aplify-notetaker-20190304133047-deployment",
+            "UnauthRoleName": "aplify-notetaker-20190304133047-unauthRole",
+            "StackName": "aplify-notetaker-20190304133047",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:859514219765:stack/aplify-notetaker-20190304133047/e5b3d850-3e2d-11e9-94b0-0accf194060a"
+        },
+        "categories": {
+            "auth": {
+                "cognito011c83a0": {}
+            }
+        }
+    }
+}
